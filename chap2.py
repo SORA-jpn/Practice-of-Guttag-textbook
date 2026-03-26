@@ -13,4 +13,9 @@ print(answer)
 
 
 
-# P.
+# P.26 指練習
+birthday = input('Enter your birthday(mm/dd/yyyy)')
+month, day, year = birthday.split('/')
+print(f'You were born in the year {year}.')
+
+#
